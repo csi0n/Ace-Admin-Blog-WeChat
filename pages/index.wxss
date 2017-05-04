@@ -15,7 +15,10 @@
     white-space: nowrap;
 }
 .sv__item{
-    padding: 14rpx;
+    /*padding: 14rpx;*/
+    padding-right: 14rpx;
+    padding-left: 14rpx;
+    padding-top: 14rpx;
     display: inline-block;
     color: white;
 }
