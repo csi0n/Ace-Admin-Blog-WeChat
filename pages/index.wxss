@@ -1,0 +1,21 @@
+/**index.wxss**/
+/* header 部分导航 */
+.header{
+    width: 100%;
+    background-color: #3095F8;
+    font-size: 30rpx;
+    display: flex;
+    align-items: center;
+    height: 30px;
+    position: fixed;
+}
+.sv__container{
+    width: 100%;
+    height: 64rpx;
+    white-space: nowrap;
+}
+.sv__item{
+    padding: 14rpx;
+    display: inline-block;
+    color: white;
+}

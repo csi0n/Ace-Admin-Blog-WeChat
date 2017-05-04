@@ -1,0 +1,8 @@
+<import src="../../utils/wxParse/wxParse.wxml"/>
+<view style="padding: 11px;">
+<image src="http://img.csi0n.com{{article.thumb}}" style="height: 150px;"></image>
+<text style="font-size: 18px;font-weight: bold;">{{article.title}}</text>
+<view class="markdown-body" style="margin-top: 10px;">
+	<template is="wxParse" data="{{wxParseData:content.nodes}}"/>
+</view>
+</view>

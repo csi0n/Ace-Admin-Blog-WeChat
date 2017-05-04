@@ -1,0 +1,10 @@
+{
+    "pages": ["pages/index", "pages/detail/index"],
+    "window": {
+        "backgroundTextStyle": "light",
+        "navigationBarBackgroundColor": "#3095F8",
+        "navigationBarTitleText": "Blog",
+        "navigationBarTextStyle": "black",
+        "enablePullDownRefresh": true
+    }
+}
